@@ -1,0 +1,155 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: #efefef;
+}
+h1 {
+    text-align: Center;
+    margin-top: -55px;
+   
+   margin-bottom:40px;  
+   font-size: 38px;
+}
+
+header{
+    background-color:#222;
+    padding: 0.9rem;
+    color:#fff;
+    margin:-8px;
+    margin-bottom:20px;
+}
+
+/*Foto-Nombre*/
+
+#foto {
+    height:65px;
+    border-radius:50%;
+    border: 20px, solid, #fff;
+    margin-left:20px;
+    margin-top: 25px;
+    
+    
+}
+
+#nombre{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top:-83px;
+}
+ 
+/*menus*/
+
+#menus {
+    text-align: right;
+    margin-top: -80px;
+    margin-right: 20px;
+
+    
+}
+
+#menus1:hover {
+    color:tomato;
+    transition: color 0.3s;
+}
+#menus2:hover {
+    color:tomato;
+    transition: color 0.3s;
+}
+#menus3:hover {
+    color:tomato;
+    transition: color 0.3s;
+}
+
+#menus1:active {
+    color:rgb(140, 21, 0);
+    transition: none;
+}
+#menus2:active {
+    color:rgb(140, 21, 0);
+    transition: none;
+}
+#menus3:active {
+    color:rgb(140, 21, 0);
+    transition: none;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+   
+}
+
+/*Articulos*/
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #FFF;
+    margin: 1rem 0;
+    border-radius:0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article h2, section article p{
+    margin:1rem;
+}
+
+/*Efectos Articulos (Zoom y Sombra*/
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+section article img {
+    transition: transform 1.5s;
+    width: 100%;
+    height:100%;
+    object-fit:cover; 
+}
+
+section article img:hover {
+    transform: scale(1.3);
+}
+
+section article div {
+    width:"600px";
+    overflow: hidden;
+    
+}
+
+/*Footer*/
+
+footer{
+    background-color:#222;
+    padding: 3rem;
+    margin:-8px;
+    margin-bottom:20px;
+    color:#fff;
+}
+
+
+footer p {
+    float:left;
+   margin:0;
+   margin:-11px;
+    
+}
+footer a {
+    float: right;
+    margin:0;
+   margin:-11px;
+    margin-bottom:50px;
+    color:#fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color:tomato;
+}
+
+footer a:active {
+    color:rgb(140, 21, 0);
+    transition: none;
+}
